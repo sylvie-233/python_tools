@@ -19,7 +19,7 @@ def get_non_conflicting_path(dst: str) -> str:
         counter += 1
     return new_dst
 
-def convert_video(src, output_ext="mp4"):
+def convert_video(src: str, output_ext: str="mp4"):
     """
     使用 ffmpeg 转换视频格式
     :param src: 源文件路径
